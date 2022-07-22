@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open sans', sans-serif;
+}
+body{
+    background-color: burlywood;
+}
+.grid_container{
+    gap: 10px;
+    display: grid;
+    margin: 0 auto;
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.col{
+    display: flex;
+    color: #fff;
+    font-size: 1.5rem;
+    aspect-ratio: 1/1;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+}
