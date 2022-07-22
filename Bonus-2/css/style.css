@@ -32,3 +32,12 @@ body{
     justify-content: center;
     background-color: tomato;
 }
+.fizz_buzz{
+    background-color: crimson;
+}
+.fizz_solo{
+    background-color: firebrick;
+}
+.buzz_solo{
+    background-color: brown;
+}
